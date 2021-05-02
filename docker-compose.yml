@@ -1,0 +1,7 @@
+99-ruby:
+    image: ruby:3.0
+    container_name: 99-ruby
+    volumes:
+        - .:/usr/src/app
+    stdin_open: true
+    tty: true
